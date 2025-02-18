@@ -937,3 +937,96 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m22:09:48.408684 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df94643d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df85a58e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3df7ec3520>]}
 [0m22:09:48.410430 [debug] [MainThread]: Flushing usage events
 [0m22:09:48.740817 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:12:38.114220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B0E154590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B0EBFE850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B0ED9FD90>]}
+
+
+============================== 19:12:38.121190 | 4b00acc6-5d9d-4ed9-9848-5ca48a12fded ==============================
+[0m19:12:38.121190 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:12:38.121916 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\maihe\\PycharmProjects\\zoom_camp_2025_ny_taxi\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\maihe\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:12:38.166174 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/maihe/.dbt')}
+[0m19:12:38.167738 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:12:38.171147 [info ] [MainThread]: Setting up your profile.
+[0m19:13:43.050129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4AF7B4590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4B025E850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4B03FFD90>]}
+
+
+============================== 19:13:43.056451 | 4300ccf8-0a1b-4d31-b069-014d523d279b ==============================
+[0m19:13:43.056451 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:13:43.057386 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maihe\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\maihe\\PycharmProjects\\zoom_camp_2025_ny_taxi\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:13:43.088495 [info ] [MainThread]: Setting up your profile.
+[0m19:14:17.298666 [info ] [MainThread]: Profile ny_taxi written to C:\Users\maihe\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:14:17.300456 [debug] [MainThread]: Command `dbt init` succeeded at 19:14:17.300057 after 34.43 seconds
+[0m19:14:17.301120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4B04936F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4B0692330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4B031DE10>]}
+[0m19:14:17.301803 [debug] [MainThread]: Flushing usage events
+[0m19:14:17.642779 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:14:39.044476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA1454590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA1EFE850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA209FD90>]}
+
+
+============================== 19:14:39.053621 | b2848d8f-af1f-45cf-b205-ea0e2d1a9ea1 ==============================
+[0m19:14:39.053621 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:14:39.055222 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\maihe\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\maihe\\PycharmProjects\\zoom_camp_2025_ny_taxi\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:14:39.110705 [info ] [MainThread]: dbt version: 1.9.2
+[0m19:14:39.111736 [info ] [MainThread]: python version: 3.13.1
+[0m19:14:39.113279 [info ] [MainThread]: python path: C:\Users\maihe\AppData\Local\Programs\Python\Python313\python.exe
+[0m19:14:39.114485 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:14:39.283647 [info ] [MainThread]: Using profiles dir at C:\Users\maihe\.dbt
+[0m19:14:39.284851 [info ] [MainThread]: Using profiles.yml file at C:\Users\maihe\.dbt\profiles.yml
+[0m19:14:39.286062 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\maihe\PycharmProjects\zoom_camp_2025_ny_taxi\dbt_project.yml
+[0m19:14:39.289416 [info ] [MainThread]: adapter type: postgres
+[0m19:14:39.290534 [info ] [MainThread]: adapter version: 1.9.0
+[0m19:14:39.490050 [info ] [MainThread]: Configuration:
+[0m19:14:39.491451 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:14:39.492395 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:14:39.493691 [info ] [MainThread]: Required dependencies:
+[0m19:14:39.496042 [debug] [MainThread]: Executing "git --help"
+[0m19:14:39.572744 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:14:39.574084 [debug] [MainThread]: STDERR: "b''"
+[0m19:14:39.575235 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:14:39.576761 [info ] [MainThread]: Connection:
+[0m19:14:39.578559 [info ] [MainThread]:   host: postgres-database-old
+[0m19:14:39.579724 [info ] [MainThread]:   port: 5432
+[0m19:14:39.580989 [info ] [MainThread]:   user: root
+[0m19:14:39.582499 [info ] [MainThread]:   database: ny_taxi
+[0m19:14:39.583877 [info ] [MainThread]:   schema: public
+[0m19:14:39.585335 [info ] [MainThread]:   connect_timeout: 10
+[0m19:14:39.586665 [info ] [MainThread]:   role: None
+[0m19:14:39.588079 [info ] [MainThread]:   search_path: None
+[0m19:14:39.589452 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:14:39.590468 [info ] [MainThread]:   sslmode: None
+[0m19:14:39.591703 [info ] [MainThread]:   sslcert: None
+[0m19:14:39.592813 [info ] [MainThread]:   sslkey: None
+[0m19:14:39.594289 [info ] [MainThread]:   sslrootcert: None
+[0m19:14:39.595430 [info ] [MainThread]:   application_name: dbt
+[0m19:14:39.596724 [info ] [MainThread]:   retries: 1
+[0m19:14:39.598747 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m19:14:40.620069 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:14:40.798549 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:14:40.799759 [debug] [MainThread]: On debug: select 1 as id
+[0m19:14:40.800781 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:14:42.140733 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+could not translate host name "postgres-database-old" to address: Name or service not known
+
+[0m19:14:43.273278 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m19:14:43.273865 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m19:14:43.274205 [debug] [MainThread]: On debug: No close available on handle
+[0m19:14:43.274521 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:14:43.275263 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:14:43.276253 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  could not translate host name "postgres-database-old" to address: Name or service not known
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:14:43.277629 [debug] [MainThread]: Command `dbt debug` failed at 19:14:43.277412 after 4.50 seconds
+[0m19:14:43.278138 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:14:43.278785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA36B15B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA3814050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025EA228DBF0>]}
+[0m19:14:43.279431 [debug] [MainThread]: Flushing usage events
+[0m19:14:43.507648 [debug] [MainThread]: An error was encountered while trying to flush usage events

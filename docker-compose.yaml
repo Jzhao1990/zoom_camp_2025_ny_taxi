@@ -1,15 +1,17 @@
-version: '3'
+#version: '3'
 
 services:
   db:
     image: postgres:13
-    container_name: postgres-database-old
+    container_name: postgres-database-new
     environment:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: public
     networks:
-      - db_network
+      - pg-network
+    ports:
+      - "5432:5432"  # Expose PostgreSQL port
 
   dbt:
     image: dbt-postgres-image
@@ -17,10 +19,19 @@ services:
     environment:
       DBT_TARGET: dev
     networks:
-      - db_network
-    depends_on:
-      - db
+      - pg-network
+
+  pgadmin:
+    image: dpage/pgadmin4:latest  # Official pgAdmin image
+    container_name: pgadmin-container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com  # Default pgAdmin login email
+      PGADMIN_DEFAULT_PASSWORD: root  # Default pgAdmin login password
+    ports:
+      - "8080:80"  # Expose pgAdmin's web interface on port 5050
+    networks:
+      - pg-network
 
 networks:
-  db_network:
+  pg-network:
     driver: bridge
