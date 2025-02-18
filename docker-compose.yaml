@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:13
+    container_name: postgres-database-old
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: public
+    networks:
+      - db_network
+
+  dbt:
+    image: dbt-postgres-image
+    container_name: dbt-container
+    environment:
+      DBT_TARGET: dev
+    networks:
+      - db_network
+    depends_on:
+      - db
+
+networks:
+  db_network:
+    driver: bridge

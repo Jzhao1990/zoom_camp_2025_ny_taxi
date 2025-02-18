@@ -1,0 +1,11 @@
+ny_taxi:  # This should match the 'profile' in your dbt_project.yml
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres-database-old
+      user: root
+      password: root
+      dbname: ny_taxi
+      port: 5432
+      schema: public

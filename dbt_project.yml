@@ -1,0 +1,7 @@
+name: 'ny_taxi'
+version: '1.0.0'
+profile: 'ny_taxi'  # This should match the profile name in your profiles.yml file
+target-path: 'target'
+clean-targets:
+  - 'target'
+  - 'dbt_modules'
